@@ -14,17 +14,17 @@
     "publisher": "文化庁",
     "url": "https://kunishitei.bunka.go.jp/",
     "terms_url": "https://kunishitei.bunka.go.jp/top/policy",
-    "accessed_date": "2026-08-23",
-    "attribution": "出典：「国指定文化財等データベース」（文化庁）\n（https://kunishitei.bunka.go.jp/）（2026年8月23日に利用）\n上記を加工して作成"
+    "accessed_date": "2026-11-23",
+    "attribution": "出典：「国指定文化財等データベース」（文化庁）\n（https://kunishitei.bunka.go.jp/）（2026年11月23日に利用）\n上記を加工して作成"
   },
   "generator": {
     "name": "heritage-crawler",
     "version": "0.1.0"
   },
   "counts": {
-    "records": 40,
-    "files": 6,
-    "with_coordinates": 30
+    "records": 14,
+    "files": 5,
+    "with_coordinates": 9
   },
   "labels": {
     "ledger_id": "台帳ID",
@@ -57,79 +57,67 @@
     "has_photo": "写真の有無"
   },
   "fields": {
-    "ledger_id": 40,
-    "managed_id": 40,
-    "category_code": 40,
-    "category_name": 40,
-    "url": 40,
-    "name": 40,
-    "name_kana": 38,
-    "quantity": 40,
-    "types": 40,
-    "country": 40,
-    "author": 13,
-    "period": 40,
-    "western_year": 36,
-    "dimensions": 37,
-    "notes": 22,
-    "designation_kind": 40,
-    "designation_number": 40,
-    "designated_date": 2,
-    "prefecture": 40,
-    "address": 40,
-    "latitude": 30,
-    "longitude": 30,
-    "exhibition_facility": 40,
+    "ledger_id": 14,
+    "managed_id": 14,
+    "category_code": 14,
+    "category_name": 14,
+    "url": 14,
+    "name": 14,
+    "name_kana": 12,
+    "quantity": 14,
+    "types": 14,
+    "country": 14,
+    "author": 8,
+    "period": 14,
+    "western_year": 12,
+    "dimensions": 12,
+    "notes": 1,
+    "designation_kind": 14,
+    "designation_number": 14,
+    "designated_date": 1,
+    "prefecture": 14,
+    "address": 14,
+    "latitude": 9,
+    "longitude": 9,
+    "exhibition_facility": 14,
     "owner": 1,
-    "description": 3,
-    "detailed_description": 36,
-    "has_attachment": 40,
-    "has_photo": 40
+    "description": 1,
+    "detailed_description": 12,
+    "has_attachment": 14,
+    "has_photo": 14
   },
   "facets": {
     "types": {
-      "文字資料": 18,
-      "絵画": 12,
-      "工芸品": 6,
-      "複合資料": 2,
-      "彫刻": 1,
-      "歴史資料": 1
+      "絵画": 10,
+      "文字資料": 2,
+      "歴史資料": 1,
+      "複合資料": 1
     },
     "period": {
-      "平安時代": 15,
-      "江戸時代": 3,
-      "明時代": 2,
       "1854年―1857年頃": 1,
       "1858年": 1,
       "1860年": 1,
-      "元時代": 1,
       "室町時代": 1,
       "室町時代～昭和時代": 1,
-      "平安時代（永久4年〈1116〉）書写": 1,
-      "推定 明治9年（1876）～明治18年（1885）": 1,
+      "平安時代": 1,
       "文政12年": 1,
-      "明治40年": 1,
-      "明治時代（19世紀）": 1,
-      "明～清時代": 1,
       "昭和15年": 1,
       "昭和30年": 1,
       "昭和２８年": 1,
-      "書写年代：奈良～江戸時代、装丁：文久元年": 1,
       "書写年代：平安時代、加点：嘉承元年（1106）": 1,
       "桃山時代": 1,
-      "永享9年頃": 1,
+      "江戸時代": 1,
       "７世紀～１９世紀": 1
     },
     "prefecture": {
-      "東京都": 31,
+      "東京都": 7,
       "埼玉県": 3,
-      "富山県": 2,
       "福岡県": 2,
       "千葉県": 1,
       "岐阜県": 1
     },
     "designation_kind": {
-      "登録": 40
+      "登録": 14
     }
   },
   "files": [
@@ -149,13 +137,7 @@
       "path": "data/13_tokyo.jsonl",
       "area_code": "13",
       "area_name": "東京都",
-      "records": 31
-    },
-    {
-      "path": "data/16_toyama.jsonl",
-      "area_code": "16",
-      "area_name": "富山県",
-      "records": 2
+      "records": 7
     },
     {
       "path": "data/21_gifu.jsonl",
